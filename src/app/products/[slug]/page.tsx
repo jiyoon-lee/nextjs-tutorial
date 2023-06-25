@@ -11,3 +11,10 @@ const PantsPage = ({ params }: Props) => {
 };
 
 export default PantsPage;
+
+export function generateStaticParams() {
+  const products = ["pants", "skirt"];
+  return products.map((product) => ({
+    slug: product,
+  }));
+}
