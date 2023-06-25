@@ -1,0 +1,9 @@
+.nav {
+  padding: 16px;
+  margin-top: 8px;
+  border: 1px solid tomato;
+}
+
+.nav a {
+  margin-right: 10px;
+}
